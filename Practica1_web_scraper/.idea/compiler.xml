@@ -18,9 +18,9 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="java_web_scraper_main" target="1.5" />
-      <module name="java_web_scraper_test" target="1.5" />
+    <bytecodeTargetLevel>
+      <module name="Practica1_web_scraper_main" target="1.5" />
+      <module name="Practica1_web_scraper_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

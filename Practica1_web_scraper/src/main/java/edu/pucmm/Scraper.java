@@ -1,4 +1,4 @@
-package classes;
+package edu.pucmm;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.Jsoup;
