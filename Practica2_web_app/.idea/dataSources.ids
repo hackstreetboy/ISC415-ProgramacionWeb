@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="H2 - jdbc:h2:tcp://localhost:9092/~/test" uuid="8b41d3b6-0dfb-4bcb-9c3f-0c01958ed5b8">
+    <database-info product="H2" version="1.4.191 (2016-01-21)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.191 (2016-01-21)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="TEST"/>
+    <table name="ESTUDIANTES" schema="PUBLIC" catalog="TEST" type="TABLE">
+      <column name="MATRICULA" sqlType="VARCHAR" precision="8" scale="0" nullable="false" jdbcType="12"/>
+      <column name="NOMBRE" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="APELLIDOS" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="TELEFONO" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="CONSTRAINT_7" columns="MATRICULA"/>
+    </table>
+  </data-source>
+</component>
