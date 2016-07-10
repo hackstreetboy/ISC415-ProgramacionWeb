@@ -1,0 +1,31 @@
+{
+  "name": "SparkBlog",
+  "homepage": "https://github.com/lrojas94/SparkBlog",
+  "authors": [
+    "Luis Rojas <lrojas94@gmail.com>",
+    "Manuel Urena"
+  ],
+  "description": "A blog created by using the Spark java framework",
+  "main": "",
+  "keywords": [
+    "spark",
+    "java",
+    "blog"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "font-awesome": "^4.6.3",
+    "bootstrap": "^3.3.6",
+    "bootstrap-fileinput": "^4.3.2",
+    "datatables.net": "^1.10.12",
+    "datatables.net-bs": "^1.10.12"
+  }
+}
